@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React the right way with Akshay. Hello all
+          Learn React the right way with Akshay. This is part of feature branch
         </a>
       </header>
     </div>
