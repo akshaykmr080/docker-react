@@ -1,0 +1,9 @@
+sudo: required
+language: generic
+service:
+  - docker
+
+before_install:
+  - docker build -f Dockerfile.dev -t akshaykmr080/react-frontend .
+script:
+  - docker run -e CI=true akshaykmr080/react-frontend npm run test
